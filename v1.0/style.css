@@ -1,0 +1,20 @@
+@font-face {
+    font-family:uno;
+    src: url(ka1.ttf);
+}
+*{
+    font-family: uno;
+    padding: 0; margin: 10px; 
+}
+
+canvas{ 
+    background: rgb(63, 9, 134);
+    display: block;
+    margin: 0 auto; 
+    background-image: url(imagenes/fondo.gif);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    transition: all 5s;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
